@@ -3,7 +3,28 @@ A-Keyboard是一个小型的 JavaScript 虚拟键盘。
 
 ### 图片
 **Default:**
+
 <img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default.png' height='130px'>
+
+**Classic:**
+
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/classic.png' height='130px'>
+
+**Dark:**
+
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark.png' height='130px'>
+
+**Default数字键盘:**
+
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default-num.png' height='130px'>
+
+**Classic数字键盘:**
+
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/classic-num.png' height='130px'>
+
+**Dark数字键盘:**
+
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark-num.png' height='130px'>
 
 ## 安装
 首先导入 CSS 文件：
