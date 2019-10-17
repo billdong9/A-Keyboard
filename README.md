@@ -99,3 +99,9 @@ keyboard.onclick(按键名称, 事件函数);
 ```html
 <link rel="stylesheet" href="css/index-classic.css">
 ```
+
+## 生态系统
+### QQ 群
+欢迎加入我们的官方 QQ 群！
+
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/qq.png' height='250px'>
