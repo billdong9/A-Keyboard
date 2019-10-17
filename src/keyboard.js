@@ -16,7 +16,7 @@ class Keyboard {
             }
         }
 
-        let html = '<div class="akeyboard-keyboard" style="' + keyboardStyle + '">';
+        let html = '<div class="akeyboard-keyboard' + (obj.fixedBottomCenter ? ' akeyboard-keyboard-fixedBottomCenter' : '') + '" style="' + keyboardStyle + '">';
 
         //init keys
         let numberKeys = [];
@@ -275,7 +275,7 @@ class Keyboard {
             }
 
             elKeysEl[i].onclick = function() {
-                inputEl[type] += this.innerHTML;
+                inputEl[type] += this.innerText;
             }
         }
     }

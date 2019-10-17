@@ -1,7 +1,7 @@
 .akeyboard-keyboard {
     height: 260px;
     width: 750px;
-    background: #393D49;
+    background: black;
     color: white;
     border-radius: 5px;
     padding: 5px;
@@ -58,6 +58,13 @@
 
 .keyboard-keyboard-keys-focus {
     background: #1E9FFF;
+}
+
+.akeyboard-keyboard-fixedBottomCenter {
+    width: 100% !important;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
 }
 
 /*

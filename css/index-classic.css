@@ -60,6 +60,13 @@
     color: white;
 }
 
+.akeyboard-keyboard-fixedBottomCenter {
+    width: 100% !important;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
 /*
     number keyboard
  */

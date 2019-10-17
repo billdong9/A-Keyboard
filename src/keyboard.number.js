@@ -16,7 +16,7 @@ class NumberKeyboard {
             }
         }
 
-        let html = '<div class="akeyboard-numberKeyboard" style="' + keyboardStyle + '">';
+        let html = '<div class="akeyboard-numberKeyboard' + (obj.fixedBottomCenter ? ' akeyboard-keyboard-fixedBottomCenter' : '') + '" style="' + keyboardStyle + '">';
 
         //init keys
         html += '<div class="akeyboard-keyboard-innerKeys">';
@@ -64,7 +64,7 @@ class NumberKeyboard {
             }
 
             elKeysEl[i].onclick = function() {
-                inputEl[type] += this.innerHTML;
+                inputEl[type] += this.innerText;
             }
         }
     }
@@ -81,7 +81,7 @@ class NumberKeyboard {
         }
 
         let elKeysEl = document.querySelector(this.obj.el + ' .akeyboard-keyboard-keys-' + btn);
-        if(elKeysEl === null){
+        if (elKeysEl === null) {
             elKeysEl = document.querySelector(this.obj.el + ' .akeyboard-numberKeyboard-keys-' + btn)
         }
 

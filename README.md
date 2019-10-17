@@ -16,6 +16,10 @@ A-Keyboard是一个小型的 JavaScript 虚拟键盘。
 
 <img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark.png' height='130px'>
 
+**GrassGreen:**
+
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/grassGreen.png' height='130px'>
+
 **Default数字键盘:**
 
 <img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default-num.png' height='130px'>
@@ -27,6 +31,10 @@ A-Keyboard是一个小型的 JavaScript 虚拟键盘。
 **Dark数字键盘:**
 
 <img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark-num.png' height='130px'>
+
+**GrassGreen数字键盘:**
+
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/grassGreen-num.png' height='130px'>
 
 ## 安装
 首先导入 CSS 文件：
@@ -58,6 +66,8 @@ $ npm i akeyboard
 ```
 
 ## 使用
+**如果你对使用有任何问题，请查看 *test* 文件夹中的 html 文件，里面有用例**
+
 导入 JS 和 CSS 文件后你就可以通过以下方式渲染一个虚拟键盘，我们提供了 2 种虚拟键盘 **普通键盘** 和 **数字键盘**：
 ```javascript
 // 渲染普通键盘
@@ -65,7 +75,8 @@ const keyboard = new aKeyboard.keyboard({
     el: '#main', // 元素选择器名称
     style: { // 设置自定义样式
         margin: 'auto'
-    }
+    },
+    fixedBottomCenter: true // 将键盘自动固定到底部，并设置 width100%
 })
 
 // 渲染数字键盘
@@ -84,7 +95,7 @@ keyboard.onclick(按键名称, 事件函数);
 ```
 
 ### 模板
-你可以通过修改 CSS 文件的方式创建你的专属模板，我们默认为你提供了 index，index-classic，index-dark 这几个模板：
+你可以通过修改 CSS 文件的方式创建你的专属模板，我们默认为你提供了 index，index-classic，index-dark，index-grassGreen 这几个模板：
 ```html
 <link rel="stylesheet" href="css/index-classic.css">
 ```
