@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/index-classic.css">
+    <title>A-Keyboard Test</title>
+</head>
+
+<body>
+    <textarea style="margin: auto; display: block;" id="input" rows="8" cols="80"></textarea>
+    <br>
+    <div id="main"></div>
+    <script type="text/javascript" src="../index.js"></script>
+    <script type="text/javascript">
+        const keyboard = new aKeyboard.keyboard({
+            el: '#main',
+            style: {
+                position: 'absolute',
+                margin: 'auto',
+                top: '0',
+                left: '0',
+                right: '0',
+                bottom: '0'
+            }
+        })
+
+        keyboard.inputOn('#input', 'value')
+
+        keyboard.onclick('Enter', function() {
+            alert('oh!')
+        })
+    </script>
+</body>
+
+</html>

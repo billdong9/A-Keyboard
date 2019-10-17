@@ -1,0 +1,79 @@
+.akeyboard-keyboard {
+    height: 260px;
+    width: 750px;
+    background: #2F4056;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 9px;
+    box-sizing: border-box;
+}
+
+.akeyboard-keyboard-innerKeys {
+    text-align: center;
+}
+
+.akeyboard-keyboard-keys {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background: white;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.akeyboard-keyboard-keys:hover {
+    background: #c2c2c2;
+    color: white;
+}
+
+.akeyboard-keyboard-keys-Delete {
+    width: 80px;
+}
+
+.akeyboard-keyboard-keys-Tab {
+    width: 80px;
+}
+
+.akeyboard-keyboard-keys-Caps {
+    width: 77px;
+}
+
+.akeyboard-keyboard-keys-Enter {
+    width: 90px;
+}
+
+.akeyboard-keyboard-keys-Shift {
+    width: 106px;
+}
+
+.akeyboard-keyboard-keys-Space {
+    width: 350px;
+}
+
+.keyboard-keyboard-keys-focus {
+    background: #c2c2c2;
+    color: white;
+}
+
+/*
+    number keyboard
+ */
+.akeyboard-numberKeyboard {
+    height: 260px;
+    width: 180px;
+    background: #2F4056;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.akeyboard-numberKeyboard-keys-Enter {
+    height: 40px;
+    width: 100px;
+}

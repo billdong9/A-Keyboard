@@ -1,0 +1,16 @@
+{
+    "name": "akeyboard",
+    "version": "1.0.0-alpha",
+    "description": "javascript keyboard",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "keyboard",
+        "js-keyboard",
+        "javascript-keyboard"
+    ],
+    "author": "Bill Dong",
+    "license": "MIT"
+}
