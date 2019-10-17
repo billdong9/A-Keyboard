@@ -1,6 +1,10 @@
 # A-Keyboard
 A-Keyboard是一个小型的 JavaScript 虚拟键盘。
 
+### 图片
+**Default:**
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default.png' height='130px'>
+
 ## 安装
 首先导入 CSS 文件：
 ```html
