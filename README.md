@@ -3,12 +3,6 @@ A-Keyboard是一个小型的 JavaScript 虚拟键盘。
 
 访问 A-Keyboard Github Demo 网站查看在线 [键盘](https://18510047382.github.io/A-Keyboard/test/index.html)、[数字键盘](https://18510047382.github.io/A-Keyboard/test/index.number.html) Demo。
 
-## 生态系统
-### QQ 群
-欢迎加入我们的官方 QQ 群！
-
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/qq.png' height='200px'>
-
 ### 图片
 **Default:**
 
