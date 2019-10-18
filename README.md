@@ -46,9 +46,9 @@ A-Keyboard是一个小型的 JavaScript 虚拟键盘。
 **说明：当有新版本发布时，Gitee 上的 Wiki 指南将会延迟更新，如果你想访问新版本的文档，推荐查看 Github Wiki**
 
 ## 贡献者
-| 昵称 | 头像 |
--|-|-
-| Bd999 | <img src='https://avatars0.githubusercontent.com/u/45157599?s=460&v=4' height='50px' style='border-radius: 50%; border: 2px solid #1E9FFF'> |
+|昵称|头像|
+|---|---|
+|Bd999|<img src='https://avatars0.githubusercontent.com/u/45157599?s=460&v=4' height='50px' style='border-radius: 50%; border: 2px solid #1E9FFF'>|
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
