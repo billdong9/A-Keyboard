@@ -65,6 +65,7 @@
     position: fixed;
     bottom: 0px;
     left: 0px;
+    border-radius: 0 !important;
 }
 
 /*
@@ -83,4 +84,68 @@
 .akeyboard-numberKeyboard-keys-Enter {
     height: 40px;
     width: 100px;
+}
+
+/*
+    mobile keyboard
+ */
+.akeyboard-mobileKeyboard {
+    height: 180px;
+    width: 310px;
+    background: #2F4056;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 11px;
+    box-sizing: border-box;
+}
+
+.akeyboard-mobileKeyboard-keys {
+    height: 25px;
+    width: 19px;
+    border-radius: 3px;
+    background: white;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 2px;
+    margin-top: 3px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 10px;
+}
+
+.akeyboard-mobileKeyboard-keys:hover {
+    background: #c2c2c2 !important;
+    color: white;
+}
+
+.akeyboard-mobileKeyboard-keys-⇧ {
+    width: 25px;
+    background: rgba(153, 159, 175);
+}
+
+.akeyboard-mobileKeyboard-keys-⇦ {
+    width: 25px;
+    background: rgba(153, 159, 175);
+}
+
+.akeyboard-mobileKeyboard-keys-Space {
+    height: 28px;
+    width: 100px;
+    line-height: 28px;
+    margin-left: 55px;
+}
+
+.akeyboard-mobileKeyboard-keys-Enter {
+    height: 28px;
+    width: 55px;
+    line-height: 28px;
+    background: #c2c2c2 !important;
+    color: white;
+}
+
+.akeyboard-mobileKeyboard-keys-focus {
+    background: #c2c2c2 !important;
+    color: white;
 }
