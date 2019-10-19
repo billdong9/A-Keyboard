@@ -8,19 +8,15 @@ A-Keyboard是一个小型的 JavaScript 虚拟键盘。
 
 **普通键盘:**
 
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default.png' height='130px'>
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/classic.png' height='130px'>
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/classic.png' height='130px'>
 
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark.png' height='130px'>
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/grassGreen.png' height='130px'>
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/grassGreen.png' height='130px'>
 
 **数字键盘:**
 
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default-num.png' height='130px'>
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/classic-num.png' height='130px'>
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default-num.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/classic-num.png' height='130px'>
 
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark-num.png' height='130px'>
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/grassGreen-num.png' height='130px'>
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark-num.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/grassGreen-num.png' height='130px'>
 
 ## Wiki
 访问以下网址查看我们的在线文档：
