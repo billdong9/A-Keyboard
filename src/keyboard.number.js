@@ -44,8 +44,7 @@ class NumberKeyboard {
             return;
         }
 
-        const el = document.querySelector(this.obj.el),
-            inputEl = document.querySelector(inputEle),
+        const inputEl = document.querySelector(inputEle),
             elKeysEl = document.querySelectorAll(this.obj.el + ' .akeyboard-keyboard-keys');
 
         for (let i = 0; i < elKeysEl.length; i++) {
