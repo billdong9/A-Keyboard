@@ -16,6 +16,10 @@ A-Keyboard是一个小型的 JavaScript 虚拟键盘。
 
 <img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default-num.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/classic-num.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark-num.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/grassGreen-num.png' height='130px'>
 
+**手机键盘:**
+
+<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default-mobile.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/classic-mobile.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark-mobile.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/grassGreen-mobile.png' height='130px'>
+
 ## Wiki
 访问以下网址查看我们的在线文档：
 
