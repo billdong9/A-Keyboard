@@ -1,5 +1,5 @@
 # A-Keyboard
-A-Keyboard是一个小型的 JavaScript 虚拟键盘。
+A-Keyboard是一个小型的虚拟键盘。
 
 访问 A-Keyboard Github Demo 网站查看在线 [键盘](https://18510047382.github.io/A-Keyboard/test/index.html)、[数字键盘](https://18510047382.github.io/A-Keyboard/test/index.number.html)、[手机键盘](https://18510047382.github.io/A-Keyboard/test/index.mobile.html) Demo。
 
