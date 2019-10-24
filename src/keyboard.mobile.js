@@ -232,7 +232,7 @@ class MobileKeyboard {
 
         let elKeysEl = document.querySelector(this.obj.el + ' .akeyboard-mobileKeyboard-keys-' + btn);
         if (elKeysEl === null) {
-            elKeysEl = document.querySelector(this.obj.el + ' .akeyboard-mobileKeyboard-keys-' + btn)
+            elKeysEl = document.querySelector(this.obj.el + ' .akeyboard-mobileKeyboard-keys-' + btn);
         }
 
         elKeysEl.onclick = fn;
