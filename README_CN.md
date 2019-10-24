@@ -29,6 +29,13 @@ A-Keyboard是一个小型的 JavaScript 虚拟键盘。
 
 **说明：当有新版本发布时，Gitee 上的 Wiki 指南将会延迟更新，如果你想访问新版本的文档，推荐查看 Github Wiki**
 
+## 发行
+我们的版本目前发行在以下几个平台上：
+
+- [Github](https://github.com/18510047382/A-Keyboard)
+- [Gitee 码云](https://gitee.com/bd999/A-Keyboard)
+- [NPM](https://www.npmjs.com/package/akeyboard)
+
 ## 贡献者
 |昵称|头像|
 |---|---|

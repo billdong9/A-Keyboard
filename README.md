@@ -29,6 +29,13 @@ Check out our online documentation at the following URL:
 
 **Note: When a new version is released, the Wiki Guide on Gitee will be delayed. If you want to access the new version of the document, it is recommended to check the Github Wiki.**
 
+## Release
+Our version is released on the following platforms:
+
+- [Github](https://github.com/18510047382/A-Keyboard)
+- [Gitee 码云](https://gitee.com/bd999/A-Keyboard)
+- [NPM](https://www.npmjs.com/package/akeyboard)
+
 ## Contributors
 |Nickname|Avatar|
 |---|---|
