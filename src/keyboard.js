@@ -290,6 +290,16 @@ class Keyboard {
             return;
         }
 
+        if (btn === '*') {
+            let elKeysEl = document.querySelectorAll(this.obj.el + ' .akeyboard-keyboard-keys');
+
+            for (let i = 0; i < elKeysEl.length; i++) {
+                elKeysEl[i].onclick = fn;
+            }
+
+            return;
+        }
+
         let elKeysEl = document.querySelector(this.obj.el + ' .akeyboard-keyboard-keys-' + btn);
 
         elKeysEl.onclick = fn;

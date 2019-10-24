@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/index-grassGreen.css">
+    <link rel="stylesheet" href="../css/index.css">
     <title>A-Keyboard Test</title>
 </head>
 
@@ -24,8 +24,12 @@
         keyboard.inputOn('#input', 'value');
 
         keyboard.onclick('Enter', function(){
-            alert('oh! 这是自定义事件！它覆盖了原始的回车事件');
+            alert('oh! 这是自定义事件！它覆盖了原始的回车事件。This is a custom event! It covers the original enter event.');
         })
+
+        // keyboard.onclick('*', function() {
+        //     alert('oh! 这是自定义事件，它覆盖了所有的键。This is a custom event that covers all the keys.')
+        // })
     </script>
 </body>
 

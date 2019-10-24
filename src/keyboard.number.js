@@ -21,7 +21,7 @@ class NumberKeyboard {
         //init keys
         html += '<div class="akeyboard-keyboard-innerKeys">';
         for (let i = 1; i < 10; i++) {
-            html += '<div class="akeyboard-keyboard-keys akeyboard-keyboard-keys-' + i + '">' + i + '</div>';
+            html += '<div class="akeyboard-keyboard-keys akeyboard-numberKeyboard-keys akeyboard-keyboard-keys-' + i + '">' + i + '</div>';
             if (i % 3 === 0) {
                 html += '</div><div class="akeyboard-keyboard-innerKeys">';
             }
@@ -79,10 +79,17 @@ class NumberKeyboard {
             return;
         }
 
-        let elKeysEl = document.querySelector(this.obj.el + ' .akeyboard-keyboard-keys-' + btn);
-        if (elKeysEl === null) {
-            elKeysEl = document.querySelector(this.obj.el + ' .akeyboard-numberKeyboard-keys-' + btn)
+        if (btn === '*') {
+            let elKeysEl = document.querySelectorAll(this.obj.el + ' .akeyboard-numberKeyboard-keys');
+
+            for (let i = 0; i < elKeysEl.length; i++) {
+                elKeysEl[i].onclick = fn;
+            }
+
+            return;
         }
+
+        let elKeysEl = document.querySelector(this.obj.el + ' .akeyboard-numberKeyboard-keys-' + btn);
 
         elKeysEl.onclick = fn;
     }
