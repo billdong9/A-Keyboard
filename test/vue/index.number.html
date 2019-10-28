@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../../css/index.css">
     <title>A-Keyboard Test</title>
 </head>
 
@@ -15,19 +15,18 @@
     <div id="main">
         <!-- using v-bind(:) to convert a string to boolean  -->
         <!-- using :style to set CSS style -->
-        <a-keyboard :fixed-bottom-center="fixedBottomCenter" :style="styleObject" :input-on="inputOnObject" :onclick="onclickObject"></a-keyboard>
+        <a-keyboard :fixed-bottom-center="fixedBottomCenter" :input-on="inputOnObject" :onclick="onclickObject"></a-keyboard>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
-    <script type="text/javascript" src="../indexVue.js"></script>
+    <script type="text/javascript" src="../../indexVue.js"></script>
     <script type="text/javascript">
         const keyboard = new Vue({
             el: '#main',
             components: {
-                'a-keyboard': aKeyboardVue.keyboard
+                'a-keyboard': aKeyboardVue.numberKeyboard
             },
             data: {
-                fixedBottomCenter: false,
-                styleObject: {},
+                fixedBottomCenter: true,
                 inputOnObject: {
                     inputEl: '#input',
                     inputType: 'value'

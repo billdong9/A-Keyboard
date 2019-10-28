@@ -5,7 +5,7 @@ module.exports = {
         onclick: Object
     },
     template: `
-        <div v-bind:class="{'akeyboard-keyboard': true, 'akeyboard-keyboard-fixedBottomCenter': fixedBottomCenter}">
+        <div :class="{'akeyboard-keyboard': true, 'akeyboard-keyboard-fixedBottomCenter': fixedBottomCenter}">
             <div v-for="row of keys" class="akeyboard-keyboard-innerKeys">
                 <div v-for="key in row" :class="['akeyboard-keyboard-keys', 'akeyboard-keyboard-keys-' + key]" @click="handleClick(key)">
                     <span v-if="key === 'Shift' && isShift">SHIFT</span>

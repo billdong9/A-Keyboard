@@ -1,5 +1,7 @@
-const keyboard = require('./keyboard');
+const keyboard = require('./keyboard'),
+    numberKeyboard = require('./keyboard.number');
 
 window.aKeyboardVue = {
-    keyboard
+    keyboard,
+    numberKeyboard
 }
