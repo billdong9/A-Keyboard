@@ -23,9 +23,8 @@ Visit the A-Keyboard Github Demo website to view the online [keyboard](https://1
 ## Wiki
 Check out our online documentation at the following URL:
 
-[Github Wiki](https://github.com/18510047382/A-Keyboard/wiki)
-
-[Gitee Wiki](https://gitee.com/bd999/A-Keyboard/wikis)
+- [Github Wiki](https://github.com/18510047382/A-Keyboard/wiki)
+- [Gitee Wiki](https://gitee.com/bd999/A-Keyboard/wikis)
 
 **Note: When a new version is released, the Wiki Guide on Gitee will be delayed. If you want to access the new version of the document, it is recommended to check the Github Wiki.**
 

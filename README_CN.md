@@ -23,9 +23,8 @@ A-Keyboard是一个小型的 JavaScript 虚拟键盘。
 ## Wiki
 访问以下网址查看我们的在线文档：
 
-[Github Wiki](https://github.com/18510047382/A-Keyboard/wiki)
-
-[Gitee Wiki](https://gitee.com/bd999/A-Keyboard/wikis)
+- [Github Wiki](https://github.com/18510047382/A-Keyboard/wiki)
+- [Gitee Wiki](https://gitee.com/bd999/A-Keyboard/wikis)
 
 **说明：当有新版本发布时，Gitee 上的 Wiki 指南将会延迟更新，如果你想访问新版本的文档，推荐查看 Github Wiki**
 
