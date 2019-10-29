@@ -40,6 +40,7 @@ Our version is released on the following platforms:
 |Nickname|Avatar|Nickname|Avatar|
 |---|---|---|---|
 |[Bd999](https://github.com/18510047382)|<img src='https://avatars0.githubusercontent.com/u/45157599?s=460&v=4' height='50px'>|[YiXTXFRC7095](https://github.com/YiXTXFRC7095)|<img src='https://avatars3.githubusercontent.com/u/44867497?s=460&v=4' height='50px'>|
+|[AlexZhou17](https://github.com/AlexZhou17)|<img src='https://avatars3.githubusercontent.com/u/51029002?s=460&v=4' height='50px'>|
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
