@@ -1,5 +1,5 @@
 # A-Keyboard
-[English](https://github.com/18510047382/A-Keyboard/blob/master/README.md) [中文](https://github.com/18510047382/A-Keyboard/blob/master/README_CN.md)
+Readme Language: [English](https://github.com/18510047382/A-Keyboard/blob/master/README.md) --- [中文](https://github.com/18510047382/A-Keyboard/blob/master/README_CN.md)
 
 A-Keyboard is a small JavaScript virtual keyboard.
 
