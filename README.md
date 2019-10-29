@@ -8,17 +8,17 @@ Visit the A-Keyboard Github Demo website to view the online [keyboard](https://1
 
 **Normal Keyboard:**
 
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/classic.png' height='130px'>
+<img src='https://18510047382.github.io/A-Keyboard/img/default.png' height='130px'><img src='https://18510047382.github.io/A-Keyboard/img/classic.png' height='130px'>
 
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/grassGreen.png' height='130px'>
+<img src='https://18510047382.github.io/A-Keyboard/img/img/dark.png' height='130px'><img src='https://18510047382.github.io/A-Keyboard/img/img/grassGreen.png' height='130px'>
 
 **Number Keyboard:**
 
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default-num.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/classic-num.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark-num.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/grassGreen-num.png' height='130px'>
+<img src='https://18510047382.github.io/A-Keyboard/img/default-num.png' height='130px'><img src='https://18510047382.github.io/A-Keyboard/img/classic-num.png' height='130px'><img src='https://18510047382.github.io/A-Keyboard/img/dark-num.png' height='130px'><img src='https://18510047382.github.io/A-Keyboard/img/grassGreen-num.png' height='130px'>
 
 **Mobile Keyboard:**
 
-<img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/default-mobile.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/classic-mobile.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/dark-mobile.png' height='130px'><img src='https://raw.githubusercontent.com/18510047382/A-Keyboard/master/img/grassGreen-mobile.png' height='130px'>
+<img src='https://18510047382.github.io/A-Keyboard/img/default-mobile.png' height='130px'><img src='https://18510047382.github.io/A-Keyboard/img/classic-mobile.png' height='130px'><img src='https://18510047382.github.io/A-Keyboard/img/dark-mobile.png' height='130px'><img src='https://18510047382.github.io/A-Keyboard/img/grassGreen-mobile.png' height='130px'>
 
 ## Wiki
 Check out our online documentation at the following URL:
