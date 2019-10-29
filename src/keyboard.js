@@ -241,36 +241,34 @@ class Keyboard {
             elKeysEl = document.querySelectorAll(this.obj.el + ' .akeyboard-keyboard-keys');
 
         for (let i = 0; i < elKeysEl.length; i++) {
-            if (elKeysEl[i].innerHTML === 'Shift' || elKeysEl[i].innerHTML === 'Caps') {
-                continue;
-            }
+            switch (elKeysEl[i].innerHTML) {
+                case 'Shift':
+                case 'Caps':
+                    continue;
 
-            if (elKeysEl[i].innerHTML === 'Delete') {
-                elKeysEl[i].onclick = function() {
-                    inputEl[type] = inputEl[type].substr(0, inputEl[type].length - 1);
-                }
-                continue;
-            }
+                case 'Delete':
+                    elKeysEl[i].onclick = function() {
+                        inputEl[type] = inputEl[type].substr(0, inputEl[type].length - 1);
+                    }
+                    continue;
 
-            if (elKeysEl[i].innerHTML === 'Tab') {
-                elKeysEl[i].onclick = function() {
-                    inputEl[type] += '  ';
-                }
-                continue;
-            }
+                case 'Tab':
+                    elKeysEl[i].onclick = function() {
+                        inputEl[type] += '  ';
+                    }
+                    continue;
 
-            if (elKeysEl[i].innerHTML === 'Enter') {
-                elKeysEl[i].onclick = function() {
-                    inputEl[type] += '\n';
-                }
-                continue;
-            }
+                case 'Enter':
+                    elKeysEl[i].onclick = function() {
+                        inputEl[type] += '\n';
+                    }
+                    continue;
 
-            if (elKeysEl[i].innerHTML === 'Space') {
-                elKeysEl[i].onclick = function() {
-                    inputEl[type] += ' ';
-                }
-                continue;
+                case 'Space':
+                    elKeysEl[i].onclick = function() {
+                        inputEl[type] += ' ';
+                    }
+                    continue;
             }
 
             elKeysEl[i].onclick = function() {

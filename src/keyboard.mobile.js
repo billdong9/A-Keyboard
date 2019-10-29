@@ -179,28 +179,27 @@ class MobileKeyboard {
             elKeysEl = document.querySelectorAll(this.obj.el + ' .akeyboard-mobileKeyboard-keys');
 
         for (let i = 0; i < elKeysEl.length; i++) {
-            if (elKeysEl[i].innerHTML === '⇧') {
-                continue;
-            }
-            if (elKeysEl[i].innerHTML === '⇦') {
-                elKeysEl[i].onclick = function() {
-                    inputEl[type] = inputEl[type].substr(0, inputEl[type].length - 1);
-                }
-                continue;
-            }
+            switch (elKeysEl[i].innerHTML) {
+                case '⇧':
+                    continue;
 
-            if (elKeysEl[i].innerHTML === 'Enter') {
-                elKeysEl[i].onclick = function() {
-                    inputEl[type] += '\n';
-                }
-                continue;
-            }
+                case '⇦':
+                    elKeysEl[i].onclick = function() {
+                        inputEl[type] = inputEl[type].substr(0, inputEl[type].length - 1);
+                    }
+                    continue;
 
-            if (elKeysEl[i].innerHTML === 'Space') {
-                elKeysEl[i].onclick = function() {
-                    inputEl[type] += ' ';
-                }
-                continue;
+                case 'Enter':
+                    elKeysEl[i].onclick = function() {
+                        inputEl[type] += '\n';
+                    }
+                    continue;
+
+                case 'Space':
+                    elKeysEl[i].onclick = function() {
+                        inputEl[type] += ' ';
+                    }
+                    continue;
             }
 
             elKeysEl[i].onclick = function() {

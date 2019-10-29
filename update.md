@@ -1,3 +1,4 @@
-### v1.0.0-beta.3
-1. keyboard.onclick 函数支持选中所有键（"\*"）
-2. 修复 number keyboard BUG
+### v1.0.0
+1. Vue.js Support (vue >= 2.6.0)
+2. 优化 if else 代码
+3. 修复 keyboard.number.js css BUG

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/index.css">
+    <title>A-Keyboard Test</title>
+</head>
+
+<body>
+    <textarea style="margin: auto; display: block;" id="input" rows="8" cols="80"></textarea>
+    <br>
+    <div id="main">
+        <!-- using v-bind(:) to convert a string to boolean  -->
+        <!-- using :style to set CSS style -->
+        <a-keyboard :fixed-bottom-center="fixedBottomCenter" :input-on="inputOnObject" :onclick="onclickObject"></a-keyboard>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <script type="text/javascript" src="../../indexVue.js"></script>
+    <script type="text/javascript">
+        const keyboard = new Vue({
+            el: '#main',
+            components: {
+                'a-keyboard': aKeyboardVue.numberKeyboard
+            },
+            data: {
+                fixedBottomCenter: true,
+                inputOnObject: {
+                    inputEl: '#input',
+                    inputType: 'value'
+                },
+                onclickObject: {
+                    Enter: function() {
+                        alert('oh! 这是自定义事件！它覆盖了原始的回车事件。This is a custom event! It override the original enter event.');
+                    },
+                    // '*': function() {
+                    //     alert('oh! 这是自定义事件，它覆盖了所有的键。This is a custom event that covers all the keys.')
+                    // }
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

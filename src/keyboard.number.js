@@ -26,7 +26,7 @@ class NumberKeyboard {
                 html += '</div><div class="akeyboard-keyboard-innerKeys">';
             }
         }
-        html += '<div class="akeyboard-keyboard-keys akeyboard-keyboard-keys-0">0</div><div class="akeyboard-keyboard-keys akeyboard-keyboard-keys-Delete">Delete</div></div><div class="akeyboard-keyboard-innerKeys"><div class="akeyboard-keyboard-keys akeyboard-numberKeyboard-keys-Enter">Enter</div></div>';
+        html += '<div class="akeyboard-keyboard-keys akeyboard-numberKeyboard-keys akeyboard-keyboard-keys-0">0</div><div class="akeyboard-keyboard-keys akeyboard-numberKeyboard-keys akeyboard-keyboard-keys-Delete">Delete</div></div><div class="akeyboard-keyboard-innerKeys"><div class="akeyboard-keyboard-keys akeyboard-numberKeyboard-keys akeyboard-numberKeyboard-keys-Enter">Enter</div></div>';
 
         html += '</div>';
 
