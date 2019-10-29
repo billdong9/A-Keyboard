@@ -10,7 +10,7 @@ Visit the A-Keyboard Github Demo website to view the online [keyboard](https://1
 
 <img src='https://18510047382.github.io/A-Keyboard/img/default.png' height='130px'><img src='https://18510047382.github.io/A-Keyboard/img/classic.png' height='130px'>
 
-<img src='https://18510047382.github.io/A-Keyboard/img/img/dark.png' height='130px'><img src='https://18510047382.github.io/A-Keyboard/img/img/grassGreen.png' height='130px'>
+<img src='https://18510047382.github.io/A-Keyboard/img/dark.png' height='130px'><img src='https://18510047382.github.io/A-Keyboard/img/grassGreen.png' height='130px'>
 
 **Number Keyboard:**
 
